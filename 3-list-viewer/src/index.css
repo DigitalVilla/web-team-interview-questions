@@ -1,0 +1,17 @@
+.post {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.post:nth-child(2n) {
+  background-color: #eee;
+}
+
+.reply {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+.reply:before {
+  content: "> "
+}
